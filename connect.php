@@ -1,8 +1,8 @@
 <?php
-$host = 'localhost';
-$username = 'root';
-$password = 'Rizki2024@@';
-$database = 'todolistapp';
+$host = 'yourdbserver';
+$username = 'yourusername';
+$password = 'yourpassword';
+$database = 'yourdb';
 
 // Membuat koneksi ke database
 $conn = new mysqli($host, $username, $password, $database);
